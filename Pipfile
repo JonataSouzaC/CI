@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+redis = "*"
+websocket-client = "*"
+autobahn = "*"
+twisted = "*"
+signalr-client-threads = "*"
+protobuf = "*"
+Events = "==0.3"
+requests = "==2.20.0"
+kafka-python = "*"
+
+[requires]
+python_version = "3.7"
