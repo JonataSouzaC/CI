@@ -4,7 +4,7 @@ redis_db = redis.StrictRedis(host="localhost", port=6379, charset="utf-8", decod
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertEqual(True, True)
+        self.assertEqual(False, True)
 
 
 if __name__ == '__main__':
